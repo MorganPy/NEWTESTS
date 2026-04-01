@@ -9,7 +9,7 @@ println("This is the inside of the step, with a Google reference")
 
 #<step explain="OUTER STEP TESTING GEMINI INNER STEP">
 println("This is the outside of the step for Gemini")
-#<step explain="GEMINI INNER STEP" ref="https://google.com">
+#<step explain="GEMINI INNER STEP" enrich">
 println("This is the inside of the step, with a Google reference")
 #</step>
 #</step>
